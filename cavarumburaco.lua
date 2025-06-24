@@ -7,7 +7,7 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("DigEvent"):FireServer(unpack(args))
 local args = {
-    [1] = 3
+    [1] = 10
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpinPrizeEvent"):FireServer(unpack(args))
