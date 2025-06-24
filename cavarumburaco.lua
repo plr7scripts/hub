@@ -31,8 +31,10 @@ features:AddButton("Start Farming", function()
             game:GetService("ReplicatedStorage")
                 :WaitForChild("Remotes")
                 :WaitForChild("SpinPrizeEvent")
-                :FireServer(10)
-            
+                :FireServer(4)
+
+
+                    
             task.wait(0.00001)
         end
     end)
